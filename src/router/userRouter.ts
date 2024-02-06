@@ -6,7 +6,7 @@ import { IdGenerator } from "../services/IdGenerator"
 import { HashManager } from "../services/HashManager"
 import { TokenManager } from "../services/TokenManager"
 
-const userRouter = express.Router()
+export const userRouter = express.Router()
 
 const userController = new UserController(
   new UserBusiness(
@@ -20,4 +20,3 @@ const userController = new UserController(
 userRouter.post("/signup", userController.signup)
 userRouter.post("/login", userController.login)
 
-export default userRouter
