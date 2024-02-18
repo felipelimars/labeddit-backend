@@ -9,7 +9,7 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (id, username, email, password) VALUES
-('u001', 'ciclano', 'ciclano@email.com', 'ciclano123' );
+('u001','Felipe Lima', 'felipeo@email.com', 'felipe123' );
 
 SELECT * FROM users;
 

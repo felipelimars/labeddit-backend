@@ -1,6 +1,7 @@
-.env
-node_modules
-build
-.DS_Store
-*.db
 coverage
+node_modules
+package-lock.json
+build
+.env
+*.db
+DS_STORE
