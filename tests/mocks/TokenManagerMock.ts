@@ -3,28 +3,25 @@ import { TokenPayload } from '../../src/models/User'
 export class TokenManagerMock {
   public createToken = (payload: TokenPayload): string => {
     if (payload.id === "id-mock") {
-      // signup de nova conta
       return "token-mock"
 
-    } else if (payload.id === "id-mock-fulano") {
-      // login de fulano (conta normal)
-      return "token-mock-fulano"
+    } else if (payload.id === "id-mock-user") {
+      return "token-mock-user"
 
     } else {
-      // login de astrodev (conta admin)
-      return "token-mock-astrodev"
+      return "token-mock-admin"
     }
   }
 
   public getPayload = (token: string): TokenPayload | null => {
-    if (token === "token-mock-fulano") {
+    if (token === "token-mock-user") {
       return {
-        id: "id-mock-fulano",
+        id: "id-mock-user"
       }
 
-    } else if (token === "token-mock-astrodev") {
+    } else if (token === "token-mock-admin") {
       return {
-        id: "id-mock-astrodev",
+        id: "id-mock-admin"
       }
 
     } else {

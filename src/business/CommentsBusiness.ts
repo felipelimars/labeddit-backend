@@ -54,7 +54,6 @@ export class CommentsBusiness {
     await this.postDatabase.updateCommentNumber(postId);
   };
   
-
   public getComments = async (
     input: GetCommentsInputDTO
   ): Promise<GetCommentsOutputDTO> => {
