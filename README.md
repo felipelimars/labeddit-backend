@@ -1,4 +1,4 @@
-# Labeddit
+# Labeddit&nbsp;&nbsp;<img src="https://github.com/felipelimars/labeddit-frontend/blob/main/labeddit/src/assets/minilogo.png" alt="Mini Logo" width="25" height="25" style="margin-right: 10px;">
 
 - [Documentação Labeddit API](https://documenter.getpostman.com/view/28315812/2s9YeHbBMQ)
 - [Link para repositório o front-end](https://github.com/felipelimars/labeddit-frontend)
@@ -249,16 +249,36 @@ Antes de começar, certifique-se de atender aos seguintes requisitos:
 - Node.js e VScode instalados em sua máquina.
 
 
-```bash / terminal
-# clonar repositório
-git clone https://github.com/felipelimars/projeto-labook-backend.git
+### bash / terminal
+- clonar repositório
+```
+git clone https://github.com/felipelimars/labeddit-backend.git
+```
 
-# Abra o projeto no Visual Studio Code (ou em seu editor de código preferido).
+- Crie seu próprio arquivo file-name.db na pasta database.
+- Abra o arquivo labbedit.sql e execute os comandos de criação de tabela.
+- Crie um arquivo chamado .env na raiz do projeto para colocar essas variáveis ​​de ambiente.
 
-# instalar dependências
+```
+#Porta Express
+PORTA=3003
+#Caminho do arquivo do banco de dados SQLite
+DB_FILE_PATH=./src/database/nome-do-arquivo.db
+#Credenciais e chaves secretas
+JWT_KEY=escolha-uma-chave-secreta
+#Tempo de expiração do token (exemplo: 9 dias)
+JWT_EXPIRES_IN=9d
+```
+
+### Abra o projeto no Visual Studio Code (ou em seu editor de código preferido).
+
+### instalar dependências
+```
 npm install
+```
 
-# executar o projeto
+### executar o projeto
+```
 npm run dev
 ```
 
