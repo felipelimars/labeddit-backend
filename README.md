@@ -1,8 +1,9 @@
 # Labeddit&nbsp;&nbsp;<img src="https://github.com/felipelimars/labeddit-frontend/blob/main/labeddit/src/assets/minilogo.png" alt="Mini Logo" width="25" height="25" style="margin-right: 10px;">
 
-- [Documentação Labeddit API](https://documenter.getpostman.com/view/28315812/2s9YeHbBMQ)
+- [Documentação Labeddit API](https://documenter.getpostman.com/view/28315812/2sA2rCSLjD)
 - [Link do repositório front-end](https://github.com/felipelimars/labeddit-frontend)
 - [Modelagem de relação entre as tabelas](https://github.com/felipelimars/labeddit-backend/blob/main/src/assets/modelagem%20-%20co%CC%81pia.png)
+- [Link do Deploy Backend](https://labeddit-backend-mn0r.onrender.com)
 
 <br>
 
