@@ -17,7 +17,7 @@ O projeto possui a criação de API e banco de dados, implementação de seguran
   </a>
 </p>
 
-### Tecnologias Utilizadas
+### Tecnologias e ferramentas Utilizadas
 
 - TypeScript
 - Node.js
@@ -32,7 +32,7 @@ O projeto possui a criação de API e banco de dados, implementação de seguran
 - Uuid
 - Zod
 
-- Endpoints
+### Endpoints
   
     - [ ]  signup
     - [ ]  login
